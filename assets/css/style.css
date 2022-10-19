@@ -1,0 +1,22 @@
+* {
+    border: 2px dashed black;
+    margin: 10px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
