@@ -6,57 +6,80 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/style.css">
 
-	<title>Matthew Tobin Portfolio</title>
-	<!--Additional elements for browsers and robots go here goes here-->
+	<title>Matthew Tobin's Portfolio</title>
 </head>
 
 <body>
-	<!--Elements visible to users go here-->
-    <header>
-        <h1>Matthew Tobin</h1>
-        <nav class="nav-bar">
-          <ul>
-            <li> <a href="#about me">About Me</a></li>
-            <li> <a href="#projects">Projets</a></li>
-            <li> <a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    
-      <main>
-        <h1 class="">Portfolio of Matthew B. Tobin</h1>
-        <figure>
-          <img src="" alt="Graphic with Coming Soon text">
-          <figcaption class="">Check back soon for the new website!</figcaption>
-        </figure>
-
-        <section id="about me">
-            <h2 class="text-left">About Me</h2>
-        </section>
-
-        <section id="contact">
-          <h2 class="">Contact Me</h2>
-          <form>
-            <ul>
-              <li>
-                <label class="" for="name">Name:</label>
-                <input type="text" id="name" name="user-name">
-              </li>
-              <li>
-                <label class="" for="email">Email:</label>
-                <input type="text" id="email" name="user-email">
-              </li>
+    <header class="flex-row">
+        <h1>Matthew B. Tobin</h1>
+        <nav>
+        <!-- want to space out the anchors and resize them, add padding to anchors -->
+            <ul class="nav-flex-column">
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
             </ul>
-            <div class="">
-              <button type="submit">SEND</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome, Thank you for Visiting!</h2>
+    </section>
+
+    <main>
+        <!-- Include photo of myself in the About Me section -->
+        <!-- Choose background photo for hero section -->
+        <section id="about-me">
+            <!-- title of section goes first -->
+            <div class="flex-title">
+                <h2>About Me</h2>
             </div>
-          </form>
+            <!-- content of section goes next -->
+            <div class="flex-content">    
+                <p>This is where the text would go for the summary about me.</p>
+            </div>
         </section>
-      </main>
-    
-      <footer class="">
-        © Tobin Productions 
-      </footer>
+
+        <section id="projects" class="flex-container">
+            <div>
+                <h2>Projects</h2>
+            </div>
+            <div>
+                <div class="project-item-1">
+                    <p>Project 1</p>
+                </div>
+                <div class="project-item">
+                    <p>Project 2</p>
+                </div>
+                <div class="project-item">
+                    <p>Project 3</p>
+                </div>
+                <div class="project-item">
+                    <p>Project 4</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2 id=contact-me>Contact Me</h2>
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+       <p>Coded and Styled by Matthew B. Tobin</p>
+    </footer>
+
 </body>
 
 </html>
