@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.79) 0%, rgb(157, 157, 157) 100% );
+    background-image: linear-gradient( rgba(0, 0, 0, 0.941) 0%, rgb(198, 198, 198) 100% );
     color: rgba(255, 255, 255, 0.799);
     height: 100%;
 }
@@ -96,7 +96,8 @@ header a:hover, #contact-me a:hover {
 
 .about-text {
     padding: 0 25px 10px;
-    margin: 0 25px 25px;
+    margin: 50px 25px 25px;
+    width: 40%;
 }
 
 .project-1 {
@@ -155,8 +156,15 @@ header a:hover, #contact-me a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
-    /* justify-content: space-between; */
     align-items: flex-start;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    margin: 50px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid black;
 }
 
 @media screen and (max-width: 650px) {
