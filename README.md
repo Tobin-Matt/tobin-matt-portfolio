@@ -1,24 +1,28 @@
-# Matthew Tobin's Portfolio
+# Matthew Tobin's Portfolio 
+Created a live portfolio for prospective employers to have a one stop shop of content about me, my work and how to contact me.  
 
-## Hero Section
-Include name, recent photo, and links to about me, my work, and how to contact me
-* links jump to the section in the page
-What do I bring to the table?
-Why would someone want to work with me?
+## Project Description
+This project consists of a HTML file, a CSS file and multiple images used for the portfolio. The HTMl file was structured
+to display multiple sections that employers can view. Those sections are as follows:
 
-## About Me
-Summary of myself
-Education, work experience, project, and interests
-Help the user reading the portfolio what I'm passionate about 
-Make it short and simple
+* A header with my Name and navigation bar that will allow the user to jump to certain sections within the page.
+* A hero image with a Welcome message.
+* An about me with a brief summary of who I am, what I'm passionate about and my background.
+* Screenshots with links that showcase the projects I have built. 
+* The first project that I built is represented by the largest image on the page within the Projects section.
+* Each project image has a hyperlink that will take the user to the deployed version of that project.
+* A section that directs the user to my GitHub account and an option to email me.
 
-## Project Section
-List the projects i've worked on by their date
-Provide details, include roles within the project, what I did, how the project turned out
-Include titled images/animations fo the applications
-First application should have a larger image than the other applications
-When clicked on the application user is taken to the deployed application
+The main intent of the CSS sheet was to show the different sections within a flexbox to display items in columns. The 
+purpose of using flexbox was to make the readability of the page better. The page was then styled to ensure that the 
+page was responsive to different device sizes.
 
-## Global styling
-* Create a responsize layout to fit various screen sizes
+This portfolio will be a living web page and updated as I learn new skill and build more projects. 
+
+## Snapshot of Deployed site
+![](./assets/images/_C__Users_mattt_bootcamp_git-hub-repos_tobin-matt-portfolio_index.html.png)
+
+## Project URLs
+* Deployed site URL: 
+* GitHub Repo URL: 
 
