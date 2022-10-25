@@ -23,6 +23,6 @@ This portfolio will be a living web page and updated as I learn new skill and bu
 ![](./assets/images/_C__Users_mattt_bootcamp_git-hub-repos_tobin-matt-portfolio_index.html.png)
 
 ## Project URLs
-* Deployed site URL: 
-* GitHub Repo URL: 
+* Deployed site URL: https://tobin-matt.github.io/tobin-matt-portfolio/
+* GitHub Repo URL: https://github.com/Tobin-Matt/tobin-matt-portfolio
 
