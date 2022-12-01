@@ -20,7 +20,7 @@ page was responsive to different device sizes.
 This portfolio will be a living web page and updated as I learn new skill and build more projects. 
 
 ## Snapshot of Deployed site
-![](./assets/images/_C__Users_mattt_bootcamp_git-hub-repos_tobin-matt-portfolio_index.html.png)
+![](./assets/images/updated-portfolio-screenshot.png)
 
 ## Project URLs
 * Deployed site URL: https://tobin-matt.github.io/tobin-matt-portfolio/
