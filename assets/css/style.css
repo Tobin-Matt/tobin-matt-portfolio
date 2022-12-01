@@ -133,9 +133,8 @@ header a:hover, #contact-me a:hover {
 }
 
 .project-3 {
-    background-image: url("");
+    background-image: url("../images/movienow-screenshot.png");
     background-size: cover;
-    background: linear-gradient(to bottom right, rgb(135, 135, 135), rgb(252, 252, 252));
     width: 540px;
     padding: 10px;
     min-height: 300px;
