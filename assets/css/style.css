@@ -108,7 +108,7 @@ header a:hover, #contact-me a:hover {
     border: 3px solid black;
 }
 
-.project-1 a, .project-2 a, .project-3 a {   
+.project-1 a, .project-2 a, .project-3 a, .project-4 a {   
     display: flex;
     flex-wrap: wrap;
     font-size: 1em;
@@ -119,7 +119,7 @@ header a:hover, #contact-me a:hover {
     padding: 0.5em;
 }
 
-.project-1 a:hover, .project-2 a:hover, .project-3 a:hover {
+.project-1 a:hover, .project-2 a:hover, .project-3 a:hover, .project-4 a:hover {
     box-shadow: 3px 2px 5px 5px rgb(0, 0, 0);
 }
 
@@ -127,6 +127,7 @@ header a:hover, #contact-me a:hover {
     background-image: url("../images/Horiseon-deployed-screenshot.png");
     background-size: cover;
     width: 540px;
+    margin: 0px 15px 25px 15px;
     padding: 10px;
     min-height: 300px;
     border: 3px solid black;
@@ -136,6 +137,17 @@ header a:hover, #contact-me a:hover {
     background-image: url("../images/movienow-screenshot.png");
     background-size: cover;
     width: 540px;
+    margin: 0px 15px 25px 15px;
+    padding: 10px;
+    min-height: 300px;
+    border: 3px solid black;
+}
+
+.project-4 {
+    background-image: url("../images/the-pantry-pal.herokuapp.com_.png");
+    background-size: cover;
+    width: 540px;
+    margin: 0px 15px 25px 15px;
     padding: 10px;
     min-height: 300px;
     border: 3px solid black;
